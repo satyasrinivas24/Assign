@@ -64,20 +64,20 @@
 # print(string)
 
 #13) five words
-user = input("enter five separated word by space:").split()
-res = set(user)
-print(res)
-words = set(input("13. Enter five words separated by space: ").split())
-print("Unique words:", words)
+# user = input("enter five separated word by space:").split()
+# res = set(user)
+# print(res)
+# words = set(input("13. Enter five words separated by space: ").split())
+# print("Unique words:", words)
 
 
 
-#14 unique elemnts
-A = {'a','b','c'}
-B = {'c','d','e'}
-print("element that unique of A:",A.difference(B))
+# #14 unique elemnts
+# A = {'a','b','c'}
+# B = {'c','d','e'}
+# print("element that unique of A:",A.difference(B))
 
-#15 count of item
-items = {'AC','fans','chair','table','mobile'}
-print(len(items))
+# #15 count of item
+# items = {'AC','fans','chair','table','mobile'}
+# print(len(items))
 

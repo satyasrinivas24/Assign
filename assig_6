@@ -1,0 +1,15 @@
+task1=input("enter the task 1:")
+task2=input("enter the task 2:")
+task3=input("enter the task 3:")
+tasks={}
+tasks.update({"task1":task1,"task2":task2,"task3":task3})
+print(tasks)
+updated_task2=input("enter the updated task 2:")
+tasks.update({"task2":updated_task2})
+print(tasks)
+a=bool(input("enter true or false:"))
+if a==True:
+    print(tasks.pop("task3"))
+    print(tasks)
+else:
+    print(tasks)
